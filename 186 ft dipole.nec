@@ -21,9 +21,9 @@
 		<key>f4</key>
 		<string>28.080</string>
 		<key>fixed</key>
-		<false/>
+		<true/>
 		<key>frequency</key>
-		<string>14.080</string>
+		<string>1.9</string>
 		<key>ground type</key>
 		<string>Other...</string>
 		<key>high</key>
@@ -33,7 +33,7 @@
 		<key>low</key>
 		<string>14.000</string>
 		<key>multiple</key>
-		<true/>
+		<false/>
 		<key>step</key>
 		<string>4</string>
 	</dict>

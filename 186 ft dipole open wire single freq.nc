@@ -1,4 +1,4 @@
-float freq, freq0, freq1, freq2, freq3, height, length, antenna_gauge;
+float freq, height, length, antenna_gauge, feed_spacing, feed_height, feed_gauge;
 
 float m2ft(float m) {
 	return m*3.28;
@@ -7,8 +7,14 @@ float m2ft(float m) {
 model("dipole") 
 {
 	element driven;
-	
-	driven = wire(0, -length, height, 0, length, height, antenna_gauge, 21);
+
+	// Dipole
+	wire(0, -length, height, 0, -feed_spacing / 2, height, antenna_gauge, 21);
+	wire(0, feed_spacing / 2, height, 0, length, height, antenna_gauge, 21);
+	// Feed line
+	wire(0, -feed_spacing / 2, height, 0, -feed_spacing / 2, feed_height, feed_gauge, 21);	
+	wire(0, feed_spacing / 2, height, 0, feed_spacing / 2, feed_height, feed_gauge, 21);	
+	driven = wire(0, -feed_spacing / 2, feed_height, 0, feed_spacing / 2, feed_height, feed_gauge, 3);
 
 	voltageFeed(driven, 1.0, 0.0);
 	
@@ -20,43 +26,26 @@ model("dipole")
 }
 
 control() {
-	float freqs[18];
 	int index;
-
-	freqs[0] = 3.5;
-	freqs[1] = 3.7;
-	freqs[2] = 4.0;
-	freqs[3] = 7.0;
-	freqs[4] = 7.15;
-	freqs[5] = 7.3;
-
-	freqs[6] = 14.0;
-	freqs[7] = 14.175;
-	freqs[8] = 14.35;
-	freqs[9] = 21.0;
-	freqs[10] = 21.225;
-	freqs[11] = 21.45;
-
-	freqs[12] = 28.0;
-	freqs[13] = 28.85;
-	freqs[14] = 29.7;
-	freqs[15] = 50.0;
-	freqs[16] = 52.0;
-	freqs[17] = 54.0;
-
-//	freqs[0] = 21.225;
+	freq = 7.15;	
+//	freq = 14.15;
+//	freq = 29.35;	
 	
 	height = 145';
 	length = 186' / 2;
 	antenna_gauge = #14;
 
+	feed_height = 1';
+	feed_spacing = 0.3';
+	feed_gauge = #16;
+
 
 	index = 0;
 	printf("\n\n");
 	printf("Dipole, %.2f ft long, %.2f feet above ground\n", m2ft(2*length), m2ft(height));
-	repeat (18) {
+	// repeat (18) {
 //	repeat (1) {
-		freq = freqs[index];
+		// freq = freqs[index];
 
 		// setFrequency(freq0);
 		// addFrequency(freq1);
@@ -69,5 +58,5 @@ control() {
 		printf("freq = %.2f\tZ: (%.4f +j %.4f)\n", 
 			freq, feedpointImpedanceReal(1), feedpointImpedanceImaginary(1));
 		index = index + 1;
-	}
+	// }
 }

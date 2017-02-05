@@ -4,13 +4,26 @@ float m2ft(float m) {
 	return m*3.28;
 }
 
+float deg2rad(float deg) {
+	return deg*pi/180;
+}
+
 model("dipole") 
 {
 	element driven;
-	
-	driven = wire(0, -length, height, 0, length, height, antenna_gauge, 21);
+	float theta, hyp, corner_x, corner_y;
 
-	voltageFeed(driven, 1.0, 0.0);
+	theta = deg2rad(45);
+	hyp = 100';
+	corner_x = hyp * cos(theta);
+	corner_y = hyp * sin(theta); 
+	
+	//					\/ height
+	driven = wire(0, 0, 140, 0, 95, 140, antenna_gauge, 21);
+	wire(0, 95, 140, corner_x, corner_y, 75, antenna_gauge, 21);
+	wire(corner_x, corner_y, 75, 0, 0, 140, antenna_gauge, 21);
+
+	voltageFeedAtSegment(driven, 1.0, 0.0, 1);
 	
 	setFrequency(freq); 
 	
@@ -20,43 +33,22 @@ model("dipole")
 }
 
 control() {
-	float freqs[18];
 	int index;
-
-	freqs[0] = 3.5;
-	freqs[1] = 3.7;
-	freqs[2] = 4.0;
-	freqs[3] = 7.0;
-	freqs[4] = 7.15;
-	freqs[5] = 7.3;
-
-	freqs[6] = 14.0;
-	freqs[7] = 14.175;
-	freqs[8] = 14.35;
-	freqs[9] = 21.0;
-	freqs[10] = 21.225;
-	freqs[11] = 21.45;
-
-	freqs[12] = 28.0;
-	freqs[13] = 28.85;
-	freqs[14] = 29.7;
-	freqs[15] = 50.0;
-	freqs[16] = 52.0;
-	freqs[17] = 54.0;
-
-//	freqs[0] = 21.225;
+	freq = 52;	
+//	freq = 14.15;
+//	freq = 29.35;	
 	
 	height = 145';
-	length = 186' / 2;
+	length = 156' / 2;
 	antenna_gauge = #14;
 
 
 	index = 0;
 	printf("\n\n");
 	printf("Dipole, %.2f ft long, %.2f feet above ground\n", m2ft(2*length), m2ft(height));
-	repeat (18) {
+	// repeat (18) {
 //	repeat (1) {
-		freq = freqs[index];
+		// freq = freqs[index];
 
 		// setFrequency(freq0);
 		// addFrequency(freq1);
@@ -69,5 +61,5 @@ control() {
 		printf("freq = %.2f\tZ: (%.4f +j %.4f)\n", 
 			freq, feedpointImpedanceReal(1), feedpointImpedanceImaginary(1));
 		index = index + 1;
-	}
+	// }
 }
