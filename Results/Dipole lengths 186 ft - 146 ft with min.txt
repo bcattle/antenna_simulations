@@ -1,0 +1,175 @@
+
+
+Dipole, 185.95 ft long, 144.96 feet above ground, feed height 1.00 feet
+freq = 1.80	Z: (28.3450 +j -611.4200)	gain max: 7.00 avg 1.04
+freq = 1.90	Z: (32.2050 +j -522.4300)	gain max: 7.06 avg 1.07
+freq = 2.00	Z: (36.4340 +j -438.1900)	gain max: 7.11 avg 1.09
+freq = 3.50	Z: (211.3900 +j 713.8200)	gain max: 7.90 avg 0.71
+freq = 3.70	Z: (277.7700 +j 911.6400)	gain max: 7.98 avg 0.67
+freq = 4.00	Z: (437.0200 +j 1271.8000)	gain max: 8.13 avg 0.64
+freq = 7.00	Z: (118.5300 +j -630.9200)	gain max: 10.29 avg 0.68
+freq = 7.15	Z: (105.8200 +j -504.2100)	gain max: 9.93 avg 0.69
+freq = 7.30	Z: (98.5080 +j -387.1000)	gain max: 9.41 avg 0.70
+freq = 10.10	Z: (1909.2000 +j 2130.2000)	gain max: 9.37 avg 0.79
+freq = 10.15	Z: (2135.5000 +j 2172.5000)	gain max: 9.38 avg 0.79
+freq = 14.00	Z: (232.9300 +j 544.7800)	gain max: 10.47 avg 0.72
+freq = 14.18	Z: (278.7100 +j 663.9300)	gain max: 10.42 avg 0.72
+freq = 14.35	Z: (337.1800 +j 790.3700)	gain max: 10.40 avg 0.72
+freq = 18.07	Z: (143.4500 +j -237.2300)	gain max: 9.88 avg 0.70
+freq = 18.17	Z: (138.6300 +j -167.2500)	gain max: 10.25 avg 0.71
+freq = 21.00	Z: (1990.1000 +j 1714.1000)	gain max: 10.86 avg 0.73
+freq = 21.23	Z: (2880.8000 +j 1396.3000)	gain max: 10.88 avg 0.72
+freq = 21.45	Z: (3582.5000 +j 270.0500)	gain max: 10.88 avg 0.72
+freq = 24.89	Z: (293.9400 +j 678.9700)	gain max: 12.01 avg 0.73
+freq = 24.99	Z: (321.1900 +j 737.5300)	gain max: 11.97 avg 0.73
+freq = 28.00	Z: (444.6900 +j -866.7500)	gain max: 11.20 avg 0.70
+freq = 28.85	Z: (166.1600 +j -88.9980)	gain max: 11.62 avg 0.66
+freq = 29.70	Z: (199.4500 +j 406.2600)	gain max: 12.26 avg 0.70
+freq = 50.00	Z: (338.5300 +j -126.0200)	gain max: 11.66 avg 0.43
+freq = 52.00	Z: (295.3300 +j 883.5300)	gain max: 12.97 avg 0.70
+freq = 54.00	Z: (2594.4000 +j 1982.5000)	gain max: 13.22 avg 0.83
+
+Min real impedance: 28.34 at 1.80 MHz
+Max real impedance: 3582.50 at 21.45 MHz
+Max complex impedance: 2172.50 at 10.15 MHz
+Min complex impedance: -866.75 at 10.15 MHz
+
+
+Dipole, 175.95 ft long, 144.96 feet above ground, feed height 1.00 feet
+freq = 1.80	Z: (24.8670 +j -698.9600)	gain max: 6.99 avg 1.04
+freq = 1.90	Z: (28.1800 +j -609.7500)	gain max: 7.04 avg 1.07
+freq = 2.00	Z: (31.7880 +j -525.7700)	gain max: 7.09 avg 1.09
+freq = 3.50	Z: (167.2700 +j 546.0900)	gain max: 7.80 avg 0.71
+freq = 3.70	Z: (213.5200 +j 711.3900)	gain max: 7.88 avg 0.67
+freq = 4.00	Z: (316.5300 +j 998.0500)	gain max: 8.01 avg 0.65
+freq = 7.00	Z: (189.3600 +j -1005.5000)	gain max: 10.62 avg 0.67
+freq = 7.15	Z: (155.1900 +j -849.2300)	gain max: 10.57 avg 0.66
+freq = 7.30	Z: (131.2500 +j -710.1600)	gain max: 10.43 avg 0.67
+freq = 10.10	Z: (684.4300 +j 1379.9000)	gain max: 9.26 avg 0.78
+freq = 10.15	Z: (738.6800 +j 1440.0000)	gain max: 9.26 avg 0.78
+freq = 14.00	Z: (129.1400 +j 68.9900)	gain max: 10.36 avg 0.73
+freq = 14.18	Z: (142.1400 +j 171.7100)	gain max: 10.52 avg 0.73
+freq = 14.35	Z: (160.2100 +j 273.7700)	gain max: 10.57 avg 0.72
+freq = 18.07	Z: (495.8400 +j -1182.7000)	gain max: 10.70 avg 0.73
+freq = 18.17	Z: (413.0000 +j -1058.3000)	gain max: 10.70 avg 0.73
+freq = 21.00	Z: (409.7700 +j 891.6800)	gain max: 11.10 avg 0.73
+freq = 21.23	Z: (521.6300 +j 1047.7000)	gain max: 11.03 avg 0.72
+freq = 21.45	Z: (677.9900 +j 1217.4000)	gain max: 11.00 avg 0.72
+freq = 24.89	Z: (151.4100 +j -97.3630)	gain max: 11.48 avg 0.69
+freq = 24.99	Z: (149.3300 +j -35.6790)	gain max: 11.78 avg 0.69
+freq = 28.00	Z: (2077.0000 +j 1581.7000)	gain max: 11.21 avg 0.73
+freq = 28.85	Z: (2134.8000 +j -1489.7000)	gain max: 11.16 avg 0.73
+freq = 29.70	Z: (366.9000 +j -736.1000)	gain max: 11.00 avg 0.69
+freq = 50.00	Z: (546.0900 +j 1174.4000)	gain max: 12.23 avg 0.68
+freq = 52.00	Z: (1416.2000 +j -840.8900)	gain max: 11.39 avg 0.53
+freq = 54.00	Z: (225.0200 +j 512.8600)	gain max: 13.07 avg 0.56
+
+Min real impedance: 24.87 at 1.80 MHz
+Max real impedance: 2134.80 at 28.85 MHz
+Max complex impedance: 1581.70 at 28.00 MHz
+Min complex impedance: -1489.70 at 28.00 MHz
+
+
+Dipole, 165.96 ft long, 144.96 feet above ground, feed height 1.00 feet
+freq = 1.80	Z: (21.7050 +j -791.7900)	gain max: 6.97 avg 1.04
+freq = 1.90	Z: (24.5360 +j -701.8500)	gain max: 7.01 avg 1.07
+freq = 2.00	Z: (27.6050 +j -617.6200)	gain max: 7.06 avg 1.09
+freq = 3.50	Z: (133.6300 +j 393.8300)	gain max: 7.72 avg 0.72
+freq = 3.70	Z: (166.7100 +j 535.4400)	gain max: 7.78 avg 0.67
+freq = 4.00	Z: (236.1900 +j 770.8600)	gain max: 7.89 avg 0.65
+freq = 7.00	Z: (375.1700 +j -1532.4000)	gain max: 10.43 avg 0.68
+freq = 7.15	Z: (288.7200 +j -1315.7000)	gain max: 10.52 avg 0.66
+freq = 7.30	Z: (228.1400 +j -1130.4000)	gain max: 10.58 avg 0.65
+freq = 10.10	Z: (321.6100 +j 814.0800)	gain max: 9.26 avg 0.77
+freq = 10.15	Z: (339.9100 +j 852.8000)	gain max: 9.26 avg 0.77
+freq = 14.00	Z: (138.8500 +j -445.7800)	gain max: 9.60 avg 0.77
+freq = 14.18	Z: (125.7600 +j -326.9700)	gain max: 9.02 avg 0.75
+freq = 14.35	Z: (119.4700 +j -216.2000)	gain max: 9.32 avg 0.74
+freq = 18.07	Z: (3798.6000 +j -655.2000)	gain max: 10.31 avg 0.74
+freq = 18.17	Z: (3470.8000 +j -1257.7000)	gain max: 10.34 avg 0.74
+freq = 21.00	Z: (154.3600 +j 194.2600)	gain max: 11.48 avg 0.71
+freq = 21.23	Z: (175.6700 +j 311.0500)	gain max: 11.58 avg 0.71
+freq = 21.45	Z: (205.0400 +j 427.5300)	gain max: 11.55 avg 0.71
+freq = 24.89	Z: (961.3500 +j -1451.6000)	gain max: 11.25 avg 0.71
+freq = 24.99	Z: (786.3500 +j -1329.6000)	gain max: 11.21 avg 0.71
+freq = 28.00	Z: (321.8900 +j 726.2200)	gain max: 11.71 avg 0.72
+freq = 28.85	Z: (707.0600 +j 1222.2000)	gain max: 11.22 avg 0.74
+freq = 29.70	Z: (2112.1000 +j 1546.8000)	gain max: 10.96 avg 0.73
+freq = 50.00	Z: (287.8400 +j -131.2900)	gain max: 11.50 avg 0.47
+freq = 52.00	Z: (302.7400 +j 769.2100)	gain max: 12.56 avg 0.63
+freq = 54.00	Z: (1444.7000 +j 1557.5000)	gain max: 11.95 avg 0.66
+
+Min real impedance: 21.70 at 1.80 MHz
+Max real impedance: 3798.60 at 18.07 MHz
+Max complex impedance: 1557.50 at 54.00 MHz
+Min complex impedance: -1532.40 at 54.00 MHz
+
+
+Dipole, 155.96 ft long, 144.96 feet above ground, feed height 1.00 feet
+freq = 1.80	Z: (18.8310 +j -891.1400)	gain max: 6.95 avg 1.04
+freq = 1.90	Z: (21.2410 +j -799.9100)	gain max: 7.00 avg 1.07
+freq = 2.00	Z: (23.8410 +j -714.9000)	gain max: 7.04 avg 1.08
+freq = 3.50	Z: (107.4100 +j 252.2800)	gain max: 7.64 avg 0.72
+freq = 3.70	Z: (131.5300 +j 376.3900)	gain max: 7.70 avg 0.68
+freq = 4.00	Z: (179.9000 +j 575.3600)	gain max: 7.78 avg 0.65
+freq = 7.00	Z: (932.9200 +j -2364.0000)	gain max: 10.05 avg 0.69
+freq = 7.15	Z: (669.8400 +j -2030.3000)	gain max: 10.18 avg 0.67
+freq = 7.30	Z: (497.2500 +j -1751.1000)	gain max: 10.29 avg 0.66
+freq = 10.10	Z: (175.5900 +j 401.0200)	gain max: 9.29 avg 0.76
+freq = 10.15	Z: (183.1700 +j 429.7000)	gain max: 9.28 avg 0.76
+freq = 14.00	Z: (397.6200 +j -1214.5000)	gain max: 10.30 avg 0.78
+freq = 14.18	Z: (303.5100 +j -1024.6000)	gain max: 10.38 avg 0.77
+freq = 14.35	Z: (238.5600 +j -857.8300)	gain max: 10.39 avg 0.76
+freq = 18.07	Z: (982.1700 +j 1485.3000)	gain max: 10.16 avg 0.74
+freq = 18.17	Z: (1125.4000 +j 1569.7000)	gain max: 10.12 avg 0.74
+freq = 21.00	Z: (210.3400 +j -589.0900)	gain max: 10.33 avg 0.71
+freq = 21.23	Z: (171.2000 +j -428.9600)	gain max: 9.90 avg 0.71
+freq = 21.45	Z: (148.6000 +j -285.5300)	gain max: 9.72 avg 0.71
+freq = 24.89	Z: (1592.7000 +j 1626.4000)	gain max: 11.02 avg 0.72
+freq = 24.99	Z: (1832.0000 +j 1639.6000)	gain max: 11.03 avg 0.72
+freq = 28.00	Z: (154.2300 +j -139.6900)	gain max: 11.01 avg 0.68
+freq = 28.85	Z: (175.6800 +j 285.7200)	gain max: 11.94 avg 0.71
+freq = 29.70	Z: (299.9200 +j 676.4900)	gain max: 11.47 avg 0.72
+freq = 50.00	Z: (603.7700 +j 1181.3000)	gain max: 12.41 avg 0.72
+freq = 52.00	Z: (1718.6000 +j -925.6800)	gain max: 11.59 avg 0.59
+freq = 54.00	Z: (215.0300 +j 283.4700)	gain max: 12.82 avg 0.51
+
+Min real impedance: 18.83 at 1.80 MHz
+Max real impedance: 1832.00 at 24.99 MHz
+Max complex impedance: 1639.60 at 24.99 MHz
+Min complex impedance: -2364.00 at 24.99 MHz
+
+
+Dipole, 145.96 ft long, 144.96 feet above ground, feed height 1.00 feet
+freq = 1.80	Z: (16.2240 +j -998.5000)	gain max: 6.93 avg 1.04
+freq = 1.90	Z: (18.2630 +j -905.3800)	gain max: 6.98 avg 1.07
+freq = 2.00	Z: (20.4540 +j -818.9900)	gain max: 7.02 avg 1.08
+freq = 3.50	Z: (86.5890 +j 117.6700)	gain max: 7.58 avg 0.72
+freq = 3.70	Z: (104.4500 +j 228.7500)	gain max: 7.62 avg 0.68
+freq = 4.00	Z: (138.9100 +j 401.3900)	gain max: 7.69 avg 0.65
+freq = 7.00	Z: (3131.8000 +j -3349.0000)	gain max: 9.64 avg 0.70
+freq = 7.15	Z: (2078.1000 +j -3115.1000)	gain max: 9.76 avg 0.68
+freq = 7.30	Z: (1419.0000 +j -2750.4000)	gain max: 9.87 avg 0.67
+freq = 10.10	Z: (110.9600 +j 47.0520)	gain max: 9.02 avg 0.74
+freq = 10.15	Z: (113.8700 +j 72.0550)	gain max: 9.05 avg 0.74
+freq = 14.00	Z: (2389.4000 +j -2325.3000)	gain max: 9.85 avg 0.78
+freq = 14.18	Z: (1649.8000 +j -2222.5000)	gain max: 9.98 avg 0.77
+freq = 14.35	Z: (1150.2000 +j -1991.3000)	gain max: 10.10 avg 0.77
+freq = 18.07	Z: (281.3000 +j 650.3700)	gain max: 10.43 avg 0.73
+freq = 18.17	Z: (305.8700 +j 704.4700)	gain max: 10.39 avg 0.74
+freq = 21.00	Z: (1951.0000 +j -1890.7000)	gain max: 10.54 avg 0.73
+freq = 21.23	Z: (1276.9000 +j -1758.0000)	gain max: 10.61 avg 0.73
+freq = 21.45	Z: (845.9800 +j -1511.9000)	gain max: 10.68 avg 0.73
+freq = 24.89	Z: (292.0700 +j 654.2300)	gain max: 11.48 avg 0.72
+freq = 24.99	Z: (315.4400 +j 702.7800)	gain max: 11.44 avg 0.72
+freq = 28.00	Z: (1640.8000 +j -1641.3000)	gain max: 11.01 avg 0.72
+freq = 28.85	Z: (390.4000 +j -864.6700)	gain max: 10.86 avg 0.71
+freq = 29.70	Z: (167.3800 +j -257.4500)	gain max: 10.07 avg 0.71
+freq = 50.00	Z: (233.4000 +j -207.4500)	gain max: 11.88 avg 0.59
+freq = 52.00	Z: (259.6700 +j 643.6300)	gain max: 12.98 avg 0.67
+freq = 54.00	Z: (993.8900 +j 1411.4000)	gain max: 12.09 avg 0.70
+
+Min real impedance: 16.22 at 1.80 MHz
+Max real impedance: 3131.80 at 7.00 MHz
+Max complex impedance: 1411.40 at 54.00 MHz
+Min complex impedance: -3349.00 at 54.00 MHz

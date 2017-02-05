@@ -1,0 +1,72 @@
+
+
+Dipole, 175.95 ft long, 144.96 feet above ground, feed height 1.00 feet
+
+Min real impedance: 28.92 at 1.80 MHz
+Max real impedance: 3825.80 at 29.70 MHz
+Max complex impedance: 1786.10 at 2.00 MHz
+Min complex impedance: -1002.90 at 2.00 MHz
+Score: 6614.80
+
+
+Dipole, 170.96 ft long, 144.96 feet above ground, feed height 1.00 feet
+
+Min real impedance: 23.44 at 1.80 MHz
+Max real impedance: 2383.50 at 4.00 MHz
+Max complex impedance: 1855.90 at 4.00 MHz
+Min complex impedance: -997.58 at 4.00 MHz
+Score: 5236.98
+
+
+Dipole, 165.96 ft long, 144.96 feet above ground, feed height 1.00 feet
+
+Min real impedance: 19.07 at 1.80 MHz
+Max real impedance: 1995.90 at 28.00 MHz
+Max complex impedance: 1832.70 at 4.00 MHz
+Min complex impedance: -1445.20 at 4.00 MHz
+Score: 5273.80
+
+
+Dipole, 160.96 ft long, 144.96 feet above ground, feed height 1.00 feet
+
+Min real impedance: 15.55 at 1.80 MHz
+Max real impedance: 993.08 at 4.00 MHz
+Max complex impedance: 1609.30 at 4.00 MHz
+Min complex impedance: -901.09 at 4.00 MHz
+Score: 3503.47
+
+
+Dipole, 155.96 ft long, 144.96 feet above ground, feed height 1.00 feet
+
+Min real impedance: 12.71 at 1.80 MHz
+Max real impedance: 1490.80 at 28.85 MHz
+Max complex impedance: 1363.50 at 4.00 MHz
+Min complex impedance: -1177.80 at 4.00 MHz
+Score: 4032.10
+
+
+Dipole, 150.96 ft long, 144.96 feet above ground, feed height 1.00 feet
+
+Min real impedance: 10.40 at 1.80 MHz
+Max real impedance: 826.13 at 54.00 MHz
+Max complex impedance: 1238.80 at 28.85 MHz
+Min complex impedance: -1270.80 at 28.85 MHz
+Score: 3335.73
+
+
+Dipole, 145.96 ft long, 144.96 feet above ground, feed height 1.00 feet
+
+Min real impedance: 8.51 at 1.80 MHz
+Max real impedance: 1693.90 at 18.07 MHz
+Max complex impedance: 991.29 at 2.00 MHz
+Min complex impedance: -1581.70 at 2.00 MHz
+Score: 4266.89
+
+
+Dipole, 140.96 ft long, 144.96 feet above ground, feed height 1.00 feet
+
+Min real impedance: 6.96 at 1.80 MHz
+Max real impedance: 2541.50 at 18.17 MHz
+Max complex impedance: 1846.90 at 29.70 MHz
+Min complex impedance: -1836.60 at 29.70 MHz
+Score: 6225.00
